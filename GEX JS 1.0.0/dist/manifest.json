@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "GEX JS",
+    "version": "1.0.0",
+    "description": "GEX JS Project",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "defult_icon": "../src/images/icon.png",
+        "default_title": "GEX JS", 
+        "default_popup": "../index.html"
+    },
+    "icons": {
+        "128": "icon_128.ico"
+    }
+}

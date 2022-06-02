@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "gulp-cli": "^2.3.0",
+    "gulp-run-command": "^0.0.10"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^28.1.0",
+    "sass": "^1.52.1"
+  },
+  "name": "GEX_JS_Project",
+  "prepros": false,
+  "version": "1.0.0",
+  "description": "GEX JS Project",
+  "main": "gulpFile.js",
+  "scripts": {
+    "test": "jest",
+    "build": "gulp build",
+    "run": "gulp run",
+    "pug": "gulp pugT",
+    "scss": "gulp scssT",
+    "watch_build": "gulp watch_build",
+    "watch_run": "gulp watch_run"
+  },
+  "author": "",
+  "license": "ISC"
+}
